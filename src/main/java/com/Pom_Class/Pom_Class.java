@@ -13,6 +13,8 @@ public class Pom_Class {
 		PageFactory.initElements(driver1, this);
 	}
 
+	
+
 	@FindBy(xpath = "//button[@id='btn-login']")
 	public WebElement Login;
 	@FindBy(xpath = "(//span[@class='full-label'])[1]")
