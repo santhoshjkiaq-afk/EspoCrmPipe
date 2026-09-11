@@ -31,8 +31,8 @@ public class Pom_Class {
 	public WebElement CreateReturnOrderV;
 	@FindBy(xpath = "(//button[@class='btn btn-default btn-icon'])[1]")
 	public WebElement Account;
-	//@FindBy(xpath = "//span[text()='Select · Accounts']")
-	//public WebElement AccountsV;
+	@FindBy(xpath = "//span[text()='Select · Accounts']")
+	public WebElement AccountsV;
 	@FindBy(xpath = "//a[text()='AFP Supply']")
 	public WebElement Afp;
 	@FindBy(xpath = "//div[@data-name='status']//div[contains(@class,'selectize-input')]")
@@ -137,20 +137,5 @@ public class Pom_Class {
 	public WebElement ClickCreate;
 	@FindBy(xpath = "//span[@class='font-size-flexible title']")
 	public WebElement SRO;
-
-//	@FindBy(xpath = "")
-//	public WebElement ;
-//	@FindBy(xpath = "")
-//	public WebElement ;
-//	@FindBy(xpath = "")
-//	public WebElement ;
-//	@FindBy(xpath = "")
-//	public WebElement ;
-//	@FindBy(xpath = "")
-//	public WebElement ;
-//	@FindBy(xpath = "")
-//	public WebElement ;
-//	@FindBy(xpath = "")
-//	public WebElement ;
 
 }
